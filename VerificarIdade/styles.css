@@ -1,0 +1,39 @@
+body{
+    background: rgb(68, 68, 245);
+    font: normal 15pt arial;
+}
+header{
+color: white;/*cor do texto*/
+text-align: center;/*centralizar o texto*/
+
+}
+section{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.615);
+    color: black;/*cor do texto*/
+    padding: 15px;
+    width: 500px;/*tamanho da caixa*/
+    margin: auto;/* centralizar a caixa*/
+    background: white;/* Muda a cor de fundo */
+    border-radius: 10px; /* faz as bordas ficarem arredondadas */
+}
+footer{
+    color:white;
+    text-align: center; /*centralizar o texto*/
+}
+#msg{
+text-align: center;
+}
+#foto{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden; 
+}
+#foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: auto;
+   
+    
+}
